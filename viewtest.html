@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="js.js"></script>
+<style type="text/css">
+#image0{
+  height: 104px;
+  width: 130px;
+}  
+</style>
+
+</head>
+<body>
+
+ 
+
+<a name="camstream"></a>
+<div class="textcenter">
+<a rel="nofollow" href="http://190.47.158.122:80/" target="new"><img id="image0" src="http://190.47.158.122:80/cgi-bin/viewer/video.jpg?r=COUNTER" class="img-responsive img-rounded detailimage" alt="" title="Click here to enter the camera located in Chile, region Region Metropolitana, Lo Prado"/></a>
+<script>
+var ch = 0;
+var imageurls = new Array();
+imageurls[0] = new String("http://190.47.158.122:80/cgi-bin/viewer/video.jpg?r=COUNTER");
+</script>
+
+<script>
+var c = 0;
+var lc = 0;
+var newimages = new Array();
+var loadstarted = new Array();
+loadstarted[0] = false;
+
+(function() {
+  refreshimages();
+  setInterval(function(){ refreshimages() }, 300);
+})();
+</script>
+</div>
+
+</body>
+</html>
+
+
